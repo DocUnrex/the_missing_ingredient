@@ -1,1 +1,2 @@
-You an find the files we have used to recognize a small set of ingredients.
+You can find the files we have used to recognize a small set of ingredients, using Open CV.
+The file "test" is a file, that will return an image of the ingredient on typing the name of the ingredient.
