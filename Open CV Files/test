@@ -1,0 +1,29 @@
+import cv2
+banana=cv2.imread("Resources/hadahj.jpg")
+clove=cv2.imread("Resources/clove.jpg")
+cardamom=cv2.imread("Resources/cardamom (27).jpg")
+ookra=cv2.imread("Resources/ookra.jpg")
+i=True
+while i:
+    ingredient=str(input("Enter ingredient name:"))
+    ingredient=ingredient.title()
+    if ingredient=="Banana":
+        cv2.destroyAllWindows()
+        cv2.imshow("Banana",banana)
+        cv2.waitKey(0)
+    elif ingredient=="Clove":
+        cv2.destroyAllWindows()
+        cv2.imshow("Clove",clove)
+        cv2.waitKey(0)
+    elif ingredient == "Cardamom":
+        cv2.destroyAllWindows()
+        cv2.imshow("Cardamom", cardamom)
+        cv2.waitKey(0)
+    elif ingredient=='Ookra':
+        cv2.destroyAllWindows()
+        cv2.imshow("Ookra", ookra)
+        cv2.waitKey(0)
+    else:
+        i=False
+
+
